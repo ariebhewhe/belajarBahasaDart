@@ -60,3 +60,5 @@ Aturan didalam variabel dart :
 - Nama pengenal tidak bileh menggunakan simbol, kecuali underscore ( _ ) dan dollar ($)
 - Nama pengenal harus unik. 
 - Nama Pengenal bersifat case-sensitive
+## Dalam Dart, Semuanya adalah objek
+
