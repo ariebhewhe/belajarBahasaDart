@@ -53,3 +53,10 @@ Blok program adalah bagian kode yang berfungsi untuk mengelompokkkan beberapa pe
  </pre>
 ## kata Kunci (keyword) dalam Dart 
 untuk mengakses ini website : <a href="https://dart.dev/guides/language/language-tour#keywords">https://dart.dev/guides/language/language-tour#keywords </a>
+
+## Pengenal (identifier)
+Aturan didalam variabel dart : 
+- Nama tidak boleh menggunakan spasi.
+- Nama pengenal tidak bileh menggunakan simbol, kecuali underscore ( _ ) dan dollar ($)
+- Nama pengenal harus unik. 
+- Nama Pengenal bersifat case-sensitive
