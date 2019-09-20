@@ -3,7 +3,7 @@ Dart adalah bahasa pemprograman yang diproduksi oleh Google, dirancang oleh Lars
 ## Membuat dan menjalankan aplikasi Dart
 - Buatlah direktori kerja. 
 - Jalankan aplikasi pada Texteditor 
-- simpan file diatas demham ekstensi .dart (misal hello.dart)
+- simpan file diatas dengan ekstensi .dart (misal hello.dart)
 ## Menjalankan aplikasi Dart 
 - cd ~/kodedart
 - dart hello.dart 
