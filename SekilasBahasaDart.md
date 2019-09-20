@@ -27,3 +27,29 @@ Blok program adalah bagian kode yang berfungsi untuk mengelompokkkan beberapa pe
     i++;
   }
 </pre>
+## Komentar Program Dart
+- Komentar satu baris
+   <pre> 
+   // ini adalah contoh komentar 
+   yang salah
+   
+   // ini komentar 
+   //yang benar
+   </pre>
+- Komentar dua baris  atau lebih
+  <pre> 
+   /* 
+    ini adalah contoh komen
+    yang tediri dari
+    tiga baris.
+   */
+  </pre>
+- Komentar untuk dokumentasi
+ <pre>
+ //////////////////////////////////////
+ /// program komentar
+ /// author : ary budi warsito
+ //////////////////////////////////////
+ </pre>
+## kata Kunci (keyword) dalam Dart 
+untuk mengakses ini website : <ahref="https://dart.dev/guides/language/language-tour#keywords">https://dart.dev/guides/language/language-tour#keywords </a>
