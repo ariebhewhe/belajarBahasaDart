@@ -61,4 +61,32 @@ Aturan didalam variabel dart :
 - Nama pengenal harus unik. 
 - Nama Pengenal bersifat case-sensitive
 ## Dalam Dart, Semuanya adalah objek
+Di dalam dart semua elemen kode dinyatakan sebagai objek. Misal 23 adalah objek dari kelas int, 23.4 adalah objek double dan 'Bahasa dart' objek dari String. Fungsi didalam dart juga sebagai objek. contoh sebagai berikut : 
+<pre>
+void ini_fungsi() {
+// .....
+}
 
+void main() {
+  print( ini_fungsi is Function) ; // Tampil true.
+}
+</pre>
+Jadi seluruh kelas yang terdapat didalam dart adalah bagian dari turunan Object baik secara langsung atau tidak. 
+## Identitas Objek 
+identitas objek adalah sebuah identitas yang digunakan untuk menyimpan Nilai didalam memori komputer. Pengaksesan objek tersebut dilakukan melalui varibel. pada dart identitas objek dapat diambil dengan propert <b>hashCode</b> yang didefinisikan didalam kelas Object.
+<pre> 
+ void main() {
+  int x = 1234;
+  int y = 1234;
+  double a = 123.456;
+  String c = 'Bhs Dart';
+  print ('a.hashCode:' + a.hashCode.toString());
+  print ('c.hashCode:' + c.hashCode.toString());
+  print ('x.hashCode:' + x.hashCode.toString());
+  print ('y.hashCode:' + y.hashCode.toString());
+  //cek identitas 
+  print ('identitas(x,y):' + identical(a,b).toString());
+ }
+</pre>
+seluruh nilai properti hashCode berupa bilangan bulat. sehingga untuk menyambung dengan string kita perlu <b> toString </b>
+kode ditas nilai x dan y bernilai sama setelah dilakukan pemeriksaan identical.
