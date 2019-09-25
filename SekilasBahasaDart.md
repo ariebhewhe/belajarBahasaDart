@@ -12,6 +12,7 @@ Dart adalah bahasa pemprograman yang diproduksi oleh Google, dirancang oleh Lars
 ## Menjalankan aplikasi Dart 
 - cd ~/kodedart
 - dart hello.dart 
+
 ## Perintah program Dart
 statement adalah instruksi yang nantinya akan dieksekusi oleh Dart VM, setiap instruksi diakhiri tanda titik koma(;)
 
@@ -27,8 +28,10 @@ Blok program adalah bagian kode yang berfungsi untuk mengelompokkkan beberapa pe
     i++;
   }
 </pre>
+   
 ## Komentar Program Dart
 - Komentar satu baris
+
    <pre> 
    // ini adalah contoh komentar 
    yang salah
@@ -36,7 +39,9 @@ Blok program adalah bagian kode yang berfungsi untuk mengelompokkkan beberapa pe
    // ini komentar 
    //yang benar
    </pre>
+   
 - Komentar dua baris  atau lebih
+
   <pre> 
    /* 
     ini adalah contoh komen
@@ -44,13 +49,16 @@ Blok program adalah bagian kode yang berfungsi untuk mengelompokkkan beberapa pe
     tiga baris.
    */
   </pre>
+  
 - Komentar untuk dokumentasi
+
  <pre>
  //////////////////////////////////////
  /// program komentar
  /// author : ary budi warsito
  //////////////////////////////////////
  </pre>
+ 
 ## kata Kunci (keyword) dalam Dart 
 untuk mengakses ini website : <a href="https://dart.dev/guides/language/language-tour#keywords">https://dart.dev/guides/language/language-tour#keywords </a>
 
@@ -60,18 +68,21 @@ Aturan didalam variabel dart :
 - Nama pengenal tidak bileh menggunakan simbol, kecuali underscore ( _ ) dan dollar ($)
 - Nama pengenal harus unik. 
 - Nama Pengenal bersifat case-sensitive
+
 ## Dalam Dart, Semuanya adalah objek
-Di dalam dart semua elemen kode dinyatakan sebagai objek. Misal 23 adalah objek dari kelas int, 23.4 adalah objek double dan 'Bahasa dart' objek dari String. Fungsi didalam dart juga sebagai objek. contoh sebagai berikut : 
+Di dalam dart semua elemen kode dinyatakan sebagai objek. Misal 23 adalah objek dari kelas int, 23.4 adalah objek double dan 'Bahasa dart' objek dari String. Fungsi didalam dart juga sebagai objek. contoh sebagai berikut :
+
 <pre>
 void ini_fungsi() {
 // .....
 }
-
 void main() {
   print( ini_fungsi is Function) ; // Tampil true.
 }
 </pre>
-Jadi seluruh kelas yang terdapat didalam dart adalah bagian dari turunan Object baik secara langsung atau tidak. 
+
+Jadi seluruh kelas yang terdapat didalam dart adalah bagian dari <b>turunan</b> Object baik secara langsung atau tidak. 
+
 ## Identitas Objek 
 identitas objek adalah sebuah identitas yang digunakan untuk menyimpan Nilai didalam memori komputer. Pengaksesan objek tersebut dilakukan melalui varibel. pada dart identitas objek dapat diambil dengan propert <b>hashCode</b> yang didefinisikan didalam kelas Object.
 <pre> 
