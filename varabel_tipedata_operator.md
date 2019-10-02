@@ -187,7 +187,7 @@ List adalah objek koleksi yang menyimpan daftar objek.
 
 - Tipe Map
 
-link contoh untuk tipe list dan tipe map silakan <a href="https://gist.github.com/ariebhewhe/af72d10b552ceaa76e52c137e01cf836">klik disini</a>
+link contoh untuk tipe list dan tipe map silakan <a href="https://gist.github.com/ariebhewhe/af72d10b552ceaa76e52c137e01cf836" target="_blank">klik disini</a>
 
 
 ## Operator 
